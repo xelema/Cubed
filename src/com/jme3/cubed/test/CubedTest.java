@@ -56,9 +56,10 @@ public class CubedTest extends SimpleApplication {
 
     public CubedTest() {
         settings = new AppSettings(true);
-        settings.setWidth(1280);
-        settings.setHeight(720);
+        settings.setWidth(1920);
+        settings.setHeight(1080);
         settings.setTitle("Cubes Test");
+        settings.setRenderer(AppSettings.LWJGL_OPENGL32);
     }
     /**
      * ActionListener that swaps between wireframe and rendering modes
